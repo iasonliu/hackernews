@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import PropTypes from 'prop-types';
 import './index.css';
 import Button from '../Button';
 import Table from '../Table';
@@ -113,4 +114,10 @@ class App extends Component {
     );
   }
 }
+
+App.propTypes = {
+  searchTerm: PropTypes.string.isRequired,
+  results: PropTypes.array.isRequired,
+  searchKey: PropTypes.string,
+};
 export default App;

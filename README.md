@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was React learning for Hacknews
 
 ## Available Scripts
 
@@ -16,6 +16,10 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+– `PropTypes` let you define type checks for components
+– `Jest` allows you to write snapshot tests for your components
+– `Enzyme` allows you to write unit tests for your components
 
 ### `npm run build`
 
